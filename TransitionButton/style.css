@@ -1,0 +1,9 @@
+button{
+  padding:0;
+  background: #ffd1dc;
+  transition: all 2s;
+}
+button:hover{
+  padding: 10px;
+  background:#89CFF0;
+}
