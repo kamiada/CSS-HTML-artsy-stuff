@@ -1,9 +1,31 @@
+html{
+  display: flex;
+  height:100%;
+  margin:0;
+  font-family: sans-serif;
+  background: #40e0d0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6DD5FA, #FBD3E9, #ff0080); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6DD5FA, #FBD3E9, #ff0080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.middle_group{
+  justify-content: center;
+  align-items: center;
+}
+.left_group{
+  align-items: left;
+}
+.right_group{
+  
+}
 button{
-  padding:0;
+  padding:10p;
+  border-radius: 12px;
   background: #ffd1dc;
-  transition: all 2s;
+  font-size: 24px;
+  transition: all 1s;
 }
 button:hover{
-  padding: 10px;
+  padding: 14px 40px;
   background:#89CFF0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
