@@ -18,6 +18,9 @@ body {
     width: 100px;
     margin: 0;
     background: radial-gradient(circle at 0px 50px, red, #000);
+}
+
+.ball-active{
     animation: bounce 0.5s;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(.5,0.05,1,.5);
