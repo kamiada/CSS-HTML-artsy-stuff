@@ -1,4 +1,6 @@
-html{
+body{
+  justify-content: center;
+  align-items: center;
   display: flex;
   height:100%;
   margin:0;
@@ -7,17 +9,27 @@ html{
   background: -webkit-linear-gradient(to right, #6DD5FA, #FBD3E9, #ff0080); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #6DD5FA, #FBD3E9, #ff0080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.middle_group{
-  justify-content: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
 }
-.left_group{
-  align-items: left;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
 }
-.right_group{
-  
+.left, .right{
+  width: 25%;
+}
+.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 button{
+  float:right;
   padding:10p;
   border-radius: 12px;
   background: #ffd1dc;
