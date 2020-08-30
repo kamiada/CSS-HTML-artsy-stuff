@@ -8,13 +8,16 @@
 </head>
 
 <body>
-    <section class="stage">
+    <div class="stage">
         <h2 class="title">Click on the ball</h2>
-        <figure id="ball_figure" onclick="playAnimation()" class="ball">
-            <audio id="audio" src="bounce.mp3"></audio>
-            <span class="shadow"></span>
-        </figure>
-    </section>
+        <div class="container">
+            <figure id="ball_figure" onclick="playAnimation()" class="ball">
+                <audio id="audio" src="bounce.mp3"></audio>
+            </figure>
+        </div>
+        <div id="shadow" class="shadow"></div>
+
+    </div>
 </body>
 
 </html>
