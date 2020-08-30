@@ -38,18 +38,25 @@ body {
 
 .shadow {
     position: relative;
-    width: 100px;
+    margin: auto;
+    width: 30%;
     height: 65px;
     background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
     transform: rotateX(90deg) translateZ(-150px);
     z-index: -1;
 }
 .shadow-active{
-    animation: shrink 0.9s infinite;
+    animation: shrink 0.5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+    animation-iteration-count: infinite;
 }
 @keyframes shrink{
-    50%{
-        transform: scaleX(0.5);
+    from{
+        width: 30%;
+    }
+    to{
+        width: auto;
     }
 }
 
