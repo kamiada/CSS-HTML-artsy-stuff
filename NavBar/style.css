@@ -6,6 +6,7 @@
     --bg-primary:#23232e;
     --bg-secondary:#141418;
     --icon-primary: #d3d3d3;
+    --transition-speed: 600ms;
 }
 body{
     padding: 0;
@@ -98,11 +99,12 @@ color: #ff7eee;
 }
 .logo svg{
     transform: rotate(0deg);
-    transition: transform var(--transition-speed);
+    transition: var(--transition-speed);
 }
-.navbar:hover .logo svg{
+.navbar:hover .logo svg {
     transform: rotate(-180deg);
-}
+  }
+  
 /*media query allows to target specific screen size*/
 @media only screen and (max-width:600px){
 
