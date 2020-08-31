@@ -1,6 +1,6 @@
 :root{
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans';
     --text-primary:grey;
     --text-secondary:darkblue;
     --bg-primary:#23232e;
@@ -54,6 +54,13 @@ main{
     height: 5rem;
     color:var(--icon-primary);
     text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+.nav-link:hover{
+    filter: grayscale(0%) opacity(1);
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
 }
 .link-text{
     display: none;
@@ -67,4 +74,14 @@ main{
 }
 .navbar:hover .link-text{
     display: block;
+}
+.fa-primary{
+color: #ff7eee;
+}
+.fa-secondary{
+    color: #df49a6;
+}
+.fa-primary,
+.fa-secondary{
+    transition: var(--transition-speed);
 }
