@@ -7,6 +7,11 @@ Each folder in the project presents different mini-project, which focuses on som
 ## Bouncing Ball
 Useful materials and links:
 
+https://cssanimation.rocks/spheres/
+
+https://css-tricks.com/almanac/properties/a/animation/
+
+
 
 ## NavBar 
 Created through following this tutorial: https://www.youtube.com/watch?v=biOMz4puGt8
