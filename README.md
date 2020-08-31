@@ -16,6 +16,8 @@ https://css-tricks.com/almanac/properties/a/animation/
 ## NavBar 
 Created through following this tutorial: https://www.youtube.com/watch?v=biOMz4puGt8
 
+Icons are from : https://fontawesome.com/
+
 ## Sticky
 
 ## T-Shirt
