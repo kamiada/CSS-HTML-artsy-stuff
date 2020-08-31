@@ -1,0 +1,18 @@
+:root{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --text-primary:grey;
+    --text-secondary:darkblue;
+    --bg-primary:#23232e;
+    --bg-secondary:#141418;
+}
+body{
+    padding: 0;
+    margin:0;
+    background-color: white;
+    color:black;
+}
+main{
+    margin-left:5rem;
+    padding:1rem;
+}
