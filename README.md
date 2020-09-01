@@ -21,6 +21,10 @@ Created through following this tutorial: https://www.youtube.com/watch?v=biOMz4p
 Icons are from : https://fontawesome.com/
 
 ## Sticky
+Random text comes from: 
+
+http://www.randomtextgenerator.com/
+
 
 ## T-Shirt
 
