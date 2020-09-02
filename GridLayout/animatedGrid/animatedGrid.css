@@ -1,0 +1,17 @@
+.animated-grid{
+  height: 85hv;
+  display: grid;
+  gap: 1rem;
+  /* explicit grid */
+  grid-template-areas:
+  'a  b  c  d'
+  'l  🌟 🌟 e'
+  'k  🌟 🌟 f'
+  'j  i  h  g';
+
+  grid-template-rows: repeat(4, 25%);
+  grid-template-columns: 240px auto auto 240px;
+}
+.card:nth-child(){
+  
+}

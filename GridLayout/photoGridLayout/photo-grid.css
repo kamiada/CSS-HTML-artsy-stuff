@@ -1,0 +1,17 @@
+.photo-grid{
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+/* this allows to look better on small devices */
+@media screen and (min-width: 600px){
+.card-tall{
+/* grid-row: span whatever for two rows /end automatically wherever */
+grid-row: span 2 / auto;
+}
+.card-wide{
+grid-column: span 2 / auto;
+}
+}
