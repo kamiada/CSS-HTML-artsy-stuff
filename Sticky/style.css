@@ -14,6 +14,9 @@ main{
 background-color: var(--bg-primary);
 display: flex;
 flex-direction: row;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
 }
 .navbar-ul{
   padding: 0;
@@ -22,6 +25,7 @@ flex-direction: row;
 .nav-li{
   margin: 0 2vw;
   list-style-type: none; 
+  float: left;
 }
 .nav-link{
   color: var(--bg-secondary);
@@ -32,4 +36,7 @@ flex-direction: row;
 .nav-link svg{
   min-width: 2rem;
   margin: 0 1.5rem;
+}
+.link-text{
+  display: none;
 }
