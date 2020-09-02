@@ -30,3 +30,6 @@ http://www.randomtextgenerator.com/
 
 ## TransitionButton
 Experimenting with different CSS elements 
+
+## Grid Layout
+Trying different grid layouts by following this tutorial: https://www.youtube.com/watch?v=705XCEruZFs
