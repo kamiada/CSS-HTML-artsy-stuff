@@ -1,11 +1,3 @@
-.basic-grid{
-  display: grid;
-  gap: 1rem;
-  /* 1fr 1 fraction of available space. So if it's only one, then that's 100% ; repeat(repeat x amount of times, this thing)*/
-
-  /* the options below creates properly auto-responsive grid */
-  grid-template-columns: repeat(auto-fit, minmax(240px));
-}
 .card{
   display: flex;
   flex-direction: column;
