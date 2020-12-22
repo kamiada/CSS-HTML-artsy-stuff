@@ -15,7 +15,10 @@ border-radius: 50%;
 
 }
 .peack{
-
+background: red;
+width: 30px;
+height: 10px;
+border-radius: 50%;
 }
 .eye{
 
@@ -24,5 +27,5 @@ border-radius: 50%;
 
 }
 .background{
-
+  background-color: #6dd1f7;
 }
