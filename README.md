@@ -33,3 +33,8 @@ Experimenting with different CSS elements
 
 ## Grid Layout
 Trying different grid layouts by following this tutorial: https://www.youtube.com/watch?v=705XCEruZFs
+
+## Duck
+Or rather a bit ugly duckling, but oh well, we all need to start somewhere. I even created a codepen for it - https://codepen.io/kamiada/pen/yLazgpd
+
+It was quite useful to use and learn a bit more about grid display in CSS - seems to be nice to use so far. Where I think I made a mistake are the margins - I think there could be better way to deal with positioning elements on the screen than overusing them. 
