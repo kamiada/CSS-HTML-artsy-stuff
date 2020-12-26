@@ -38,3 +38,5 @@ Trying different grid layouts by following this tutorial: https://www.youtube.co
 Or rather a bit ugly duckling, but oh well, we all need to start somewhere. I even created a codepen for it - https://codepen.io/kamiada/pen/yLazgpd
 
 It was quite useful to use and learn a bit more about grid display in CSS - seems to be nice to use so far. Where I think I made a mistake are the margins - I think there could be better way to deal with positioning elements on the screen than overusing them. 
+
+Here is the article explaining grid: https://css-tricks.com/snippets/css/complete-guide-grid/
