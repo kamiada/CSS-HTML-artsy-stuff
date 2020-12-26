@@ -1,3 +1,42 @@
+body {
+    background: #97F2F3;
+}
+button {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-radius 3s ease-in-out, 
+                width 3s ease-in-out, 
+                height  3s linear, 
+                transform 3s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+button:active {
+    transform: scale(0.99);
+}
 .container {
-    
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 10px;
+}
+.hamburger {
+    background: #F3D1DC;
+    position: relative;
+    width: 100px;
+    height: 10px;
+}
+
+.hamburger:focus{
+    transform: translate(12em,0);
+    border-radius: 50%;
+    height: 100px;
+}
+.hamburger_animate{
+
 }
