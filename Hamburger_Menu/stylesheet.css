@@ -7,7 +7,7 @@ button {
     cursor: pointer;
     transition: border-radius 3s ease-in-out, 
                 width 3s ease-in-out, 
-                height  3s linear, 
+                height  3s ease-in-out, 
                 transform 3s ease-in-out;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -33,10 +33,17 @@ button:active {
 }
 
 .hamburger:focus{
-    transform: translate(12em,0);
+    transform: translate(18em,0);
     border-radius: 50%;
-    height: 100px;
+    height: 50px;
+    width: 50px;
 }
 .hamburger_animate{
-
+    transform: translate(18em,0);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.icon {
+    display: none;
 }
