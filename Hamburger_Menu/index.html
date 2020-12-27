@@ -6,12 +6,18 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script>
         function changeClass() {
-            if(document.getElementById('icon').className === "icon" && document.getElementById('btn_hamb').className === "hamburger"){
-                document.getElementById('icon').className = "icon_active";
-                document.getElementById('btn_hamb').className = "hamburger_animate";
+            let icon = document.getElementById('icon');
+            let hamburger = document.getElementById('btn_hamb');
+            
+
+            if( icon.className === "icon" && hamburger.className === "hamburger"){
+                hamburger.className = "hamburger_animate";
+                if(hamburger.className === "hamburger_animate") {
+                    icon.className = "icon_active";
+                }
             } else {
-                document.getElementById('icon').className = "icon"
-                document.getElementById('btn_hamb').className = "hamburger"
+                icon.className = "icon";
+                hamburger.className = "hamburger";
             }
         }
     </script>

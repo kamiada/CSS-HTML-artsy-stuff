@@ -13,6 +13,7 @@ button {
     -moz-appearance: none;
 }
 img {
+    transition: display 1s ease-in-out 
 }
 .container {
     position: absolute;
