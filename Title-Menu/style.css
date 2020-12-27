@@ -1,6 +1,14 @@
 body {
     background: #97F2F3;
 }
+button {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background: #97F2F3;
+    font-size: 14px;
+    color: black;
+}
 .title {
 
 }
