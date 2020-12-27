@@ -5,10 +5,10 @@ button {
     border: none;
     text-decoration: none;
     cursor: pointer;
-    transition: border-radius 3s ease-in-out, 
-                width 3s ease-in-out, 
-                height  3s ease-in-out, 
-                transform 3s ease-in-out;
+    transition: border-radius 1s ease-in-out, 
+                width 1s ease-in-out, 
+                height  1s ease-in-out, 
+                transform 1s ease-in-out;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -32,7 +32,7 @@ button:active {
     height: 10px;
 }
 
-.hamburger:focus{
+.hamburger:focus {
     transform: translate(18em,0);
     border-radius: 50%;
     height: 50px;

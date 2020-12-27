@@ -43,4 +43,4 @@ Here is the article explaining grid: https://css-tricks.com/snippets/css/complet
 
 ## Hamburger menu
 
-As title say: hamburger menu. I am actually pretty proud of that one. 
+As title say: hamburger menu.
