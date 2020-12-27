@@ -10,8 +10,16 @@ button {
     color: black;
 }
 .title {
-
+    width: 100px;
+    height: 10px;
 }
 .container {
-
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 10px;
 }
