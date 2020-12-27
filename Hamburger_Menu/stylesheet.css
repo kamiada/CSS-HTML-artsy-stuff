@@ -12,8 +12,7 @@ button {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
-button:active {
-    transform: scale(0.99);
+img {
 }
 .container {
     position: absolute;
@@ -31,14 +30,8 @@ button:active {
     width: 100px;
     height: 10px;
 }
-
-.hamburger:focus {
-    transform: translate(18em,0);
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
 .hamburger_animate{
+    background: #F3D1DC;
     transform: translate(18em,0);
     border-radius: 50%;
     height: 50px;
@@ -46,4 +39,7 @@ button:active {
 }
 .icon {
     display: none;
+}
+.icon_active {
+    display: inherit;
 }

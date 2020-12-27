@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Hamburger Menu</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <script>
-            function changeClass() {
-              let icon = document.getElementsByClassName('icon');
-              console.log(icon);
-              let displaySettings = icon[0].style.display;
-              console.log(displaySettings);
-              if(displaySettings === 'none'){
-                    displaySettings = 'inherit';
-                  console.log('here');
-              }
-              else {
-                displaySettings = 'none';
-                  console.log('second');
-              }
-              console.log(displaySettings);
+
+<head>
+    <title>Hamburger Menu</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script>
+        function changeClass() {
+            if(document.getElementById('icon').className === "icon" && document.getElementById('btn_hamb').className === "hamburger"){
+                document.getElementById('icon').className = "icon_active";
+                document.getElementById('btn_hamb').className = "hamburger_animate";
+            } else {
+                document.getElementById('icon').className = "icon"
+                document.getElementById('btn_hamb').className = "hamburger"
             }
-            </script>
-    </head>
-    <body>
-        <div class="container">
-            <button class="hamburger" onclick="changeClass()">
-                <img src="cat.svg" alt="black cat" class="icon" id="icon"></img>
-            </button>
-        </div>
-    </body>
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <button  id ="btn_hamb" class="hamburger" onclick="changeClass()">
+            <img src="cat.svg" alt="black cat" class="icon" id="icon"></img>
+        </button>
+    </div>
+</body>
+
 </html>
