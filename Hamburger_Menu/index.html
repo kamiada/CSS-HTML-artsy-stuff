@@ -5,14 +5,26 @@
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <script>
             function changeClass() {
-              console.log('test');
+              let icon = document.getElementsByClassName('icon');
+              console.log(icon);
+              let displaySettings = icon[0].style.display;
+              console.log(displaySettings);
+              if(displaySettings === 'none'){
+                    displaySettings = 'inherit';
+                  console.log('here');
+              }
+              else {
+                displaySettings = 'none';
+                  console.log('second');
+              }
+              console.log(displaySettings);
             }
             </script>
     </head>
     <body>
         <div class="container">
             <button class="hamburger" onclick="changeClass()">
-                <div class="icon">Icon</div>
+                <img src="cat.svg" alt="black cat" class="icon" id="icon"></img>
             </button>
         </div>
     </body>
