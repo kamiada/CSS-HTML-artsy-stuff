@@ -8,15 +8,12 @@
         function changeClass() {
             let icon = document.getElementById('icon');
             let hamburger = document.getElementById('btn_hamb');
-
-
             if (icon.className === "icon" && hamburger.className === "hamburger") {
                 hamburger.className = "hamburger_animate";
                 if (hamburger.className === "hamburger_animate") {
                     setTimeout(function () {
                         icon.className = "icon_active";
                     }, 1000);
-                    
                 }
             } else {
                 icon.className = "icon";

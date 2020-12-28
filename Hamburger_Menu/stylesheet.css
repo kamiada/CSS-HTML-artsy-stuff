@@ -29,6 +29,24 @@ button {
     width: 100px;
     height: 10px;
 }
+.hamburger::after {
+    background: #F3D1DC;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25px;   
+    width: 100px;
+    height: 10px;
+}
+.hamburger::before {
+    background: #F3D1DC;
+    content: "";
+    position: absolute;
+    left: 0;
+	bottom: 25px;
+    width: 100px;
+    height: 10px;
+}
 .hamburger_animate{
     background: #F3D1DC;
     transform: translate(18em,0);
@@ -36,10 +54,13 @@ button {
     height: 50px;
     width: 50px;
 }
-.icon_visually_hidden {
-    opacity: 0;
-}
 .icon {
+    display: none;
+}
+.icon::after {
+    display: none;
+}
+.icon::before  {
     display: none;
 }
 .icon_active {
