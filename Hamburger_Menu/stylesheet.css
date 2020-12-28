@@ -54,6 +54,26 @@ button {
     height: 50px;
     width: 50px;
 }
+.hamburger_animate::after{
+    background: #F3D1DC;
+    content: "";
+    top: 25px;   
+    position: absolute;
+    transform: translate(-10px,-10px);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.hamburger_animate::before{
+    background: #F3D1DC;
+    content: "";
+	bottom: 25px;
+    position: absolute;
+    transform: translate(10px,-10px);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
 .icon {
     display: none;
 }
