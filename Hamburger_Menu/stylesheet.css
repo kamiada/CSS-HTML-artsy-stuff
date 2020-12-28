@@ -29,7 +29,7 @@ button {
     width: 100px;
     height: 10px;
 }
-.hamburger::after {
+/* .hamburger::after {
     background: #F3D1DC;
     content: "";
     position: absolute;
@@ -37,7 +37,8 @@ button {
     top: 25px;   
     width: 100px;
     height: 10px;
-}
+} */
+/* before is top bar */
 .hamburger::before {
     background: #F3D1DC;
     content: "";
@@ -54,22 +55,21 @@ button {
     height: 50px;
     width: 50px;
 }
-.hamburger_animate::after{
+/* .hamburger_animate::after{
     background: #F3D1DC;
     content: "";
     top: 25px;   
     position: absolute;
-    transform: translate(-10px,-10px);
+    transform: translate(-10px,-30px);
     border-radius: 50%;
     height: 50px;
     width: 50px;
-}
+} */
 .hamburger_animate::before{
     background: #F3D1DC;
     content: "";
 	bottom: 25px;
     position: absolute;
-    transform: translate(10px,-10px);
     border-radius: 50%;
     height: 50px;
     width: 50px;
