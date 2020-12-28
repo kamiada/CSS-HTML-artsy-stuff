@@ -4,7 +4,6 @@ body {
 button {
     border: none;
     text-decoration: none;
-    cursor: pointer;
     transition: border-radius 1s ease-in-out, 
                 width 1s ease-in-out, 
                 height  1s ease-in-out, 
@@ -15,6 +14,7 @@ button {
 
 .container {
     position: absolute;
+    cursor: pointer;
     margin: auto;
     top: 0;
     left: 0;
@@ -57,10 +57,7 @@ button {
 .icon {
     display: none;
 }
-.icon::after {
-    display: none;
-}
-.icon::before  {
+.icon_2 {
     display: none;
 }
 .icon_active {
