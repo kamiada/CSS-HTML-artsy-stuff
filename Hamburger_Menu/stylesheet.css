@@ -12,9 +12,7 @@ button {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
-img {
-    transition: display 1s ease-in-out 
-}
+
 .container {
     position: absolute;
     margin: auto;
@@ -37,6 +35,9 @@ img {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+}
+.icon_visually_hidden {
+    opacity: 0;
 }
 .icon {
     display: none;

@@ -8,12 +8,15 @@
         function changeClass() {
             let icon = document.getElementById('icon');
             let hamburger = document.getElementById('btn_hamb');
-            
 
-            if( icon.className === "icon" && hamburger.className === "hamburger"){
+
+            if (icon.className === "icon" && hamburger.className === "hamburger") {
                 hamburger.className = "hamburger_animate";
-                if(hamburger.className === "hamburger_animate") {
-                    icon.className = "icon_active";
+                if (hamburger.className === "hamburger_animate") {
+                    setTimeout(function () {
+                        icon.className = "icon_active";
+                    }, 1000);
+                    
                 }
             } else {
                 icon.className = "icon";
@@ -25,7 +28,7 @@
 
 <body>
     <div class="container">
-        <button  id ="btn_hamb" class="hamburger" onclick="changeClass()">
+        <button id="btn_hamb" class="hamburger" onclick="changeClass()">
             <img src="cat.svg" alt="black cat" class="icon" id="icon"></img>
         </button>
     </div>
