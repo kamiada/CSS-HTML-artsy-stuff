@@ -1,0 +1,51 @@
+body {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    transition: border-radius 1s ease-in-out, 
+                width 1s ease-in-out, 
+                height  1s ease-in-out, 
+                transform 1s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.container {
+    position: absolute;
+    cursor: pointer;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.dropdown_menu_btn {
+    background-color: #C3E4FD;
+    position: relative;
+}
+.dropdown_content {
+    position: relative;
+    &__dropdown_item {
+        // display: none;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        width: 100%;
+        position: inherit;
+    }
+    a {
+        background-color: #97F2F3;
+    }
+}

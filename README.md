@@ -45,3 +45,12 @@ Here is the article explaining grid: https://css-tricks.com/snippets/css/complet
 
 As title say: hamburger menu.
 Icon of cat by DinosoftLab from the Noun Project; icon of an owl by Maxim Kulikov from the Noun Project, icon of a fish in the bowl by ibrandify from the Noun Project; 
+
+## Dropdown Menu
+
+In order to make sass work I used this command line *inside DropdownMenu folder*: 
+
+```
+sass --watch style.scss:style.css
+
+```
