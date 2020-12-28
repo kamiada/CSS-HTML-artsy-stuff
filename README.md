@@ -44,4 +44,4 @@ Here is the article explaining grid: https://css-tricks.com/snippets/css/complet
 ## Hamburger menu
 
 As title say: hamburger menu.
-Icon from : https://thenounproject.com/search/?q=animal&i=1382973
+Icon of cat by DinosoftLab from the Noun Project; icon of an owl by Maxim Kulikov from the Noun Project, icon of a fish in the bowl by ibrandify from the Noun Project; 
