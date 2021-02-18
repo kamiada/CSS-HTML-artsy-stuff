@@ -19,4 +19,13 @@
   padding: 5px 0px 0px 9px;
 }
 
+button {
+  float: right;
+  background-color: #DE5227;
+  margin-right: 10px;
+  color: white;
+  border-radius: 15%;
+  font-size: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
