@@ -1,8 +1,20 @@
+.containter {
+    width: 350px;
+    height: 200px;
+}
 .dialogue {
     border-color: #0059F0;
     border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .top-panel {
     background-color: #0059F0;
-    height: 3px;
+    height: 25px;
+    border-radius: 15px 15px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 5px 0px 0px 9px;
+}
+.text {
+
 }
