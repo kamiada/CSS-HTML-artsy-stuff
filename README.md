@@ -54,3 +54,7 @@ In order to make sass work I used this command line *inside DropdownMenu folder*
 sass --watch style.scss:style.css
 
 ```
+
+## Windows XP type of text message box
+References: 
+![Windows XP text message box](oldXPwindowDialog/references.jpg)
